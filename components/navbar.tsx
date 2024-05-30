@@ -46,11 +46,11 @@ function Nav() {
                                     </a>
 
                                     <a
-                                            href="/insure"
-                                            className="dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                            >
-                                            Insure
-                                        </a>
+                                        href="/insure"
+                                        className="dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    >
+                                        Insure
+                                    </a>
 
                                     <a
                                         href="/sell"
@@ -71,7 +71,7 @@ function Nav() {
                         </div>
 
 
-                        <div className="-mr-2 flex md:hidden">
+                        <div className="-ml-4 flex md:hidden">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
                                 type="button"
@@ -132,7 +132,7 @@ function Nav() {
                 >
 
                     {(ref) => (
-                        <div className="fixed top-20 left-5  h-100 w-1/4 bg-white p-4 rounded-xl" id="mobile-menu">
+                        <div className="fixed top-20 h-100 bg-white p-4 rounded-xl" id="mobile-menu">
                             <div ref={ref} className="">
 
                                 <div className="flex items-center justify-between" id="mobile-menu">
@@ -181,7 +181,7 @@ function Nav() {
                                         >
                                             Contact
                                         </a>
- 
+
                                     </div>
                                 </div>
                             </div>

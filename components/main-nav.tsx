@@ -9,7 +9,7 @@ export function MainNav() {
     <div className=" items-right order-2 md:order-1">
       <Link href="/" className="flex md:font-thin ">
         <p
-        >GENTLEMANS GARAGE
+        >GENTLEMENS GARAGE
         </p>
       </Link>
     </div>
