@@ -12,11 +12,9 @@ export default function About() {
 
           <div className="flex flex-wrap ">
 
-            <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
+            {/* <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
 
               <div className="relative">
-
-                <Image src="/daytonapic.png" width={1000} height={1000} alt="" className="scale-75 md:scale-100 relative z-30 items-center object-cover md:w-[90%] h-[90%] rounded-tr-[80px] rounded-bl-[80px] rounded bg-slate-300" />
 
                 <div className="absolute z-30 text-red-500 transform -translate-y-1/2 cursor-pointer top-[47%] left-[44%] hover:text-blue-500">
 
@@ -37,12 +35,12 @@ export default function About() {
 
               </div>
 
-            </div>
+            </div> */}
 
 
 
 
-            <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 md:mt-48 ">
+            <div className="w-full px-4 mb-10 lg:mb-0 md:mt-48 ">
 
               <div className="relative">
 

@@ -1,8 +1,24 @@
+'use client'
+
 import Image from 'next/image'
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function Page() {
+
+  const videoEl = useRef<HTMLVideoElement | null>(null);
+
+  const attemptPlay = () => {
+    videoEl.current &&
+      videoEl.current.play().catch((error: any) => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
+
   return (
 
     <>
@@ -16,9 +32,17 @@ export default function Page() {
 
               <div className="relative">
 
-                <Image src="/daytonapic.png" width={1000} height={1000} alt="" className="scale-75 md:scale-100 relative z-30 items-center object-cover md:w-[90%] h-[90%] rounded-tr-[80px] rounded-bl-[80px] rounded bg-slate-300" />
+                <video
+                  className="w-full h-full object-cover inset-0 rounded-tl-md rounded-br-md "
+                  playsInline
+                  autoPlay
+                  loop
+                  muted
+                  src="/Timeline.mp4"
+                  ref={videoEl}
+                />
 
-                <div className="absolute z-30 text-red-500 transform -translate-y-1/2 cursor-pointer top-[47%] left-[44%] hover:text-blue-500">
+                <a href="https://www.youtube.com/watch?v=u7P26YFUie4" className="absolute z-30 text-red-500 transform -translate-y-1/2 cursor-pointer top-[47%] left-[44%] hover:text-blue-500">
 
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 
@@ -32,7 +56,7 @@ export default function Page() {
 
                   </svg>
 
-                </div>
+                </a>
 
 
               </div>
@@ -75,14 +99,6 @@ export default function Page() {
                 minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 
               </p>
-
-              <a href="#"
-
-                className="px-4 py-3 text-gray-50 transition-all transform bg-red-500 rounded-[80px] hover:bg-red-400 dark:hover:text-gray-100 dark:text-gray-100 ">
-
-                Learn more
-
-              </a>
 
             </div>
 
