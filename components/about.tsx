@@ -47,7 +47,7 @@ export default function About() {
 
                 <h1 className="pl-2 text-3xl font-bold border-l-8 border-red-500 md:text-5xl dark:text-white">
 
-                  Welcome to Gentlemen's Garage
+                  Welcome to Gentlemen&apos;s Garage
 
                 </h1>
 
