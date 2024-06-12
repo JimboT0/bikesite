@@ -9,6 +9,8 @@ import { SanityProduct } from "@/config/inventory"
 import { getSizeName } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { useToast } from "@/components/ui/use-toast"
+import {PortableText} from '@portabletext/react'
+import Enquire from "./enquire"
 
 interface Props {
   product: SanityProduct
@@ -54,10 +56,13 @@ export function ProductInfo({product}: Props) {
 
       <div className="mt-6">
         <h3 className="sr-only">Description</h3>
-        <div className="space-y-6 text-base">{product.description}</div>
+        <PortableText value={product.description}/>
+        
       </div>
 
-      <div className="mt-4">
+      <Enquire />
+
+      {/* <div className="mt-4">
         <p>
           Size: <strong>{getSizeName(product.sizes[0])}</strong>
         </p>
@@ -70,17 +75,17 @@ export function ProductInfo({product}: Props) {
             {getSizeName(size)}
           </Button>
         ))}
-      </div>
+      </div> */}
 
       <form className="mt-6">
         <div className="mt-4 flex">
-          <Button
+          {/* <Button
           onClick={addToCart}
             type="button"
             className="w-full bg-violet-600 py-6 text-base font-medium text-white hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-500"
           >
             Add to cart
-          </Button>
+          </Button> */}
         </div>
       </form>
     </div>

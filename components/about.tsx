@@ -6,9 +6,9 @@ export default function About() {
   return (
 
     <>
-      <section className="flex items-center xl:h-screen font-poppins">
+      <section className="flex items-center font-poppins pb-10">
 
-        <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+        <div className="justify-center flex-1 max-w-6xl mx-auto lg:py-6 md:px-6">
 
           <div className="flex flex-wrap ">
 
@@ -40,19 +40,14 @@ export default function About() {
 
 
 
-            <div className="w-full px-4 mb-10 lg:mb-0 md:mt-48 ">
+            <div className="w-full px-4 mb-10 lg:mb-0 sm:mt-48 pt-4 ">
 
               <div className="relative">
 
-                <h1 className="absolute -top-20   left-0 text-[20px] lg:text-[100px] text-gray-900 font-bold  dark:text-gray-200 opacity-5 md:block hidden">
-
-                  About Us
-
-                </h1>
 
                 <h1 className="pl-2 text-3xl font-bold border-l-8 border-red-500 md:text-5xl dark:text-white">
 
-                  Welcome to our site
+                  Welcome to Gentlemen's Garage
 
                 </h1>
 
@@ -60,19 +55,8 @@ export default function About() {
 
               <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet,
-
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-
-                labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur
-
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-
-                minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-
-              </p>
+              Your premier destination for everything vintage and classic in the world of cars and bikes. At Gentlemen’s Garage, we are driven by a deep passion for timeless vehicles that capture the essence of a bygone era. Our mission is to bring together enthusiasts who share a love for classic motoring and provide them with exceptional services that cater to their every need.
+               </p>
 
               <a href="#"
 

@@ -50,7 +50,7 @@ export default function VideoHero() {
 
         </div>
         <Image
-          src="/gentlemansgarage.png"
+          src="/GentlemensGarage.png"
           alt="crest"
           width="400"
           height="400"

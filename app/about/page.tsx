@@ -33,7 +33,7 @@ export default function Page() {
               <div className="relative">
 
                 <video
-                  className="w-full h-full object-cover inset-0 rounded-tl-md rounded-br-md "
+                  className="w-full h-full object-cover inset-0 rounded-tl-[30px] rounded-br-[30px] "
                   playsInline
                   autoPlay
                   loop
@@ -70,12 +70,6 @@ export default function Page() {
 
               <div className="relative">
 
-                <h1 className="absolute -top-20   left-0 text-[20px] lg:text-[100px] text-gray-900 font-bold  dark:text-gray-200 opacity-5 md:block hidden">
-
-                  About Us
-
-                </h1>
-
                 <h1 className="pl-2 text-3xl font-bold border-l-8 border-red-500 md:text-5xl dark:text-white">
 
                   Welcome to our site
@@ -86,17 +80,9 @@ export default function Page() {
 
               <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet,
-
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-
-                labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur
-
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-
-                minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              Welcome to Gentlemen’s Garage, your premier destination for everything vintage and classic in the world of cars and bikes. At Gentlemen’s Garage, we are driven by a deep passion for timeless vehicles that capture the essence of a bygone era. Our mission is to bring together enthusiasts who share a love for classic motoring and provide them with exceptional services that cater to their every need.
+              <br /><br />
+              We focus on sharing vehicles that are rarely seen on the road in an immersive experience.
 
               </p>
 

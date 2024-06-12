@@ -46,7 +46,12 @@ export const product = defineType({
         {
             name: "description",
             title: "Description",
-            type: "string",
+            type: "array",
+            of: [
+                {
+                    type: 'block'
+                }
+            ]
         },
         {
             name: "sku",
