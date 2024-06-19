@@ -112,7 +112,7 @@ export default function About() {
         <div className="p-4 bg-background">
           <h3 className="text-lg font-semibold line-clamp-2">Introducing the frontend cloud</h3>
           <p className="text-sm text-muted-foreground line-clamp-2">
-            Vercel's vision for the future of web development
+            Vercel&aposs vision for the future of web development
           </p>
         </div>
       </div>
@@ -132,7 +132,7 @@ export default function About() {
         </div>
         <div className="p-4 bg-background">
           <h3 className="text-lg font-semibold line-clamp-2">Using Vercel KV with Svelte</h3>
-          <p className="text-sm text-muted-foreground line-clamp-2">A deep dive into Vercel's key-value store</p>
+          <p className="text-sm text-muted-foreground line-clamp-2">A deep dive into Vercel&aposs key-value store</p>
         </div>
       </div>
       <div className="relative overflow-hidden rounded-lg group cursor-pointer">
@@ -152,7 +152,7 @@ export default function About() {
         <div className="p-4 bg-background">
           <h3 className="text-lg font-semibold line-clamp-2">Loading UI with Next.js 13</h3>
           <p className="text-sm text-muted-foreground line-clamp-2">
-            Optimizing your app's performance with Next.js 13
+            Optimizing your app&aposs performance with Next.js 13
           </p>
         </div>
       </div>
